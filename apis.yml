@@ -1,8 +1,14 @@
 aid: merklebase-inc
 name: Merklebase, Inc.
-description: Merklebase, Inc. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Merklebase provides data-driven infrastructure for institutional digital-asset
+  finance, spanning enterprise data management, a core portfolio management system, reporting
+  and accounting, risk management, a trade capture system, and a digital-asset loan management
+  system. It advertises connectivity to 220+ custodians, trading venues, and data providers,
+  and is used by hedge funds, asset managers, and financial institutions to streamline
+  front-to-back operations across fiat, crypto, derivatives, and stablecoins. A developer
+  API and connectivity layer is referenced by customers, but the public developer surface
+  (docs.merklebase.io on Theneo) is currently unpublished and the API (api.merklebase.io,
+  AWS API Gateway) is gated, so no public OpenAPI/SDK artifacts are harvestable yet.
 url: https://raw.githubusercontent.com/api-evangelist/merklebase-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://image.typedream.com/cdn-cgi/image/width=144,height=144,quality=100,fit=crop/https://api.typedream.com/v0/document/public/ee8109df-e243-482b-9ad1-2021b09157ff/2qQeVkcJM0hvkeTEJcOWBadeVTe_mb.png
 tags:
 - Company
+- Digital Assets
+- Cryptocurrency
+- Portfolio Management
+- Risk Management
+- Financial Services
+- Institutional Finance
+- Data Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/merklebase-inc-domain-security.yml
 - type: Website
   url: https://merklebase.io
+- type: LinkedIn
+  url: https://www.linkedin.com/company/merklebase/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
