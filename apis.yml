@@ -1,5 +1,5 @@
 aid: merklebase-inc
-name: Merklebase, Inc.
+name: Merklebase
 description: Merklebase provides data-driven infrastructure for institutional digital-asset
   finance, spanning enterprise data management, a core portfolio management system, reporting
   and accounting, risk management, a trade capture system, and a digital-asset loan management
@@ -46,9 +46,9 @@ tags:
 - Company
 - Digital Assets
 - Cryptocurrency
-- Portfolio-Management
+- Portfolio Management
 - Risk Management
-- Financial-Services
+- Financial Services
 - Institutional Finance
 - Data Management
 tags_raw:
@@ -60,6 +60,8 @@ tags_raw:
 - Financial Services
 - Institutional Finance
 - Data Management
+- Portfolio-Management
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -78,3 +80,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Merklebase, Inc.
